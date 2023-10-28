@@ -1,0 +1,42 @@
+button, [type='button'], [type='reset'], [type='submit'] {
+    -webkit-appearance: button;
+    background-image: none;
+    background-color: #872657;
+    color: white;
+    border-radius: 15px;
+    font-weight: normal;
+}
+
+.p-tabview-title{
+font-weight: normal;
+}
+
+.p-tabview-ink-bar{
+   background-color: #20B2AA;
+   width: 10px;
+}
+
+.p-tabview .p-tabview-panels {
+    background: transparent;
+    padding: 1.25rem;
+    border: 0 none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.p-tabview .p-tabview-nav {
+    background: transparent;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    border: solid #dee2e6;
+    border-width: 0 0 2px 0;
+    background: transparent;
+    padding: 1.25rem;
+    font-weight: 700;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition: box-shadow 0.2s;
+    margin: 0 0 -2px 0;
+}
+
